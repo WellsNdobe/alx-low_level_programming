@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  *main - entry point of the code
- * Return: 0(Success)
+ * Return:0(Success)
  */
 int main(void)
 {
@@ -18,4 +18,4 @@ int main(void)
 	else
 		printf("%d is negative", n);
 	return (0);
-
+}
