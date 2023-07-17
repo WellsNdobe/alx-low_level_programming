@@ -1,3 +1,4 @@
+#include <stdio.h>
 /*
  * main - entry point to a program that prints alphabets
  * Return: 0 (Success)
@@ -20,6 +21,6 @@ int main(void)
 		putchar(a);
 		a++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
