@@ -20,17 +20,22 @@ int main(void)
 		num2 = num1 + 1;
 		while (num2 < 10)
 		{
-		putchar(num1 + '0');
-		putchar(num2 + '0');
-		if (num2 == 8 && num3 == 9)
-		{
-		num2++;
-		}
-		else
-		{
-		putchar(',');
-		putchar(' ');
-		}
+			num3 = num2 + 1;
+			while (num3 < 10)
+			{
+			putchar(num1 + '0');
+			putchar(num2 + '0');
+			if (num2 == 8 && num3 == 9)
+			{
+			num3++;
+			}
+			else
+			{
+			putchar(',');
+			putchar(' ');
+			}
+			num3++;
+			}
 		num2++;
 		}
 	num1++;
