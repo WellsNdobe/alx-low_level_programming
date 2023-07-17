@@ -9,12 +9,9 @@ int main(void)
 {
 	int num1;
 	int num2;
-	int num3;
 
 	num1 = 0;
 	num2 = 1;
-	num3 = 2;
-
 	while (num1 < 9)
 	{
 		num2 = num1 + 1;
