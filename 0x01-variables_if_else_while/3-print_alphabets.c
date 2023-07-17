@@ -1,5 +1,6 @@
 #include <stdio.h>
-/*
+
+/**
  * main - entry point to a program that prints alphabets
  * Return: 0 (Success)
  */
