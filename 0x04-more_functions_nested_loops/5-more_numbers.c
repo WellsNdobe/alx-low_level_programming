@@ -6,16 +6,17 @@
  */
 void print_numbers(void)
 {
-	char c;
 	int a;
 
-	c = 0;
 	a = 0;
 	while (a <= 9)
 	{
+		int c;
+
+		c = 0;
 		while (c <= '14')
 		{
-		_putchar(c);
+		_putchar(c + '0');
 		c++;
 		}
 		_putchar('\n');
