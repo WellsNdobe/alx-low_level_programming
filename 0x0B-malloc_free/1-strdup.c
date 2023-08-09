@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include "main.h"
-#include <stdio.h">
+#include <stdio.h>
 
 /**
  * _strdup - duplicate to new memory space location
- * @str: char
- * Return: 0
+ * @str: char to be replicated;
+ * Return: pointer to new string and Null if not available
  */
 char *_strdup(char *str)
 {
