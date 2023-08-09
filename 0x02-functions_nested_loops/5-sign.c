@@ -2,8 +2,8 @@
 
 /**
  * print_sign - prints sign of an integer
- * @n - checked int
- *
+ * @n - holds the value of a passed int
+ * Return 0 if n is equal to 0 or 1 if n is positive or -1 if n is negative
  */
 int print_sign(int n)
 {

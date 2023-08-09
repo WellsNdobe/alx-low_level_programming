@@ -14,7 +14,7 @@ void times_table(void)
 	{
 	while (b <=9)
 	{
-	if ((a <= 1 && b <= 9)) || (a <= 2 && b <= 3))
+	if ((a <= 1 && b <= 9) || (a <= 2 && b <= 3))
 	{
 	while (c <= 5)
 	{
