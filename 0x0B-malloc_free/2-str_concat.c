@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * concatenate_strings - Concatenates two input strings.
+ * str_concat - Concatenates two input strings.
  * @s1: First strin.
  * @s2: Second string.
  * Return: Concatenated string.
  */
-char *concatenate_strings(char *s1, char *s2)
+char *str_concat(char *s1, char *s2)
 {
 	char *concatStr;
 	int i, x;
