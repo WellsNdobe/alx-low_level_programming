@@ -36,5 +36,5 @@ char *_strdup(char *str)
 	}
 	copy[x] = '\0';
 
-	return (copy)
+	return (copy);
 }
