@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- *main - prints program name
- *Return: 0 on success or -1 if unsuccesfu
- *argc - number of command line arguments
- *argv - command line arguments as strings
+ *main: prints program name
+ *@argc: number of command line arguments
+ *@argv: the command line arguments
+ * Return: 0 on success or -1 if unsuccesful
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
