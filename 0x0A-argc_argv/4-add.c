@@ -15,7 +15,10 @@ int main(int argc, char *argv[])
 	if (argc == 1)
 	{
 		printf("%d\n", 0);
+		
 	}
+	else
+	{
 	for (i = 1; i < argc; i++)
 	{
 		if (!(argv[i][0] >= '0' && argv[i][0] <= '9'))
@@ -26,6 +29,6 @@ int main(int argc, char *argv[])
 		sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);
-
+	}
 	return (0);
 }
