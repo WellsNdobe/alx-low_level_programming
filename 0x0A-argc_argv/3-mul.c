@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  *main - prints number of command line arguments
@@ -8,14 +9,14 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
 
-	if (argc != 2)
+	if (argc != 3)
 	{
 		printf("Error");
 	}
-	argc = 1;
-	printf("%d\n", argv[argc] * argv[argc + 1]);
-	
+	else
+	{
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+	}
 	return (0);
 }
