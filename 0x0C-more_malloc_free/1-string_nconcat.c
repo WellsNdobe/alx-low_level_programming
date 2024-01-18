@@ -11,9 +11,9 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	void *ptr = malloc(b);
-	char *newStr;
-	int length;
+	void *ptr;
+	char *newStr = "";
+	unsigned int length;
 
 	length = 0;
 
