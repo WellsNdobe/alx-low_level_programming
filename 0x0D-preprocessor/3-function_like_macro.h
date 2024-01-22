@@ -2,7 +2,7 @@
 #define FUNCTION_LIKE_MACRO_H
 
 /**
- *ABS:calculates absolute value
+ *ABS - calculates absolute value
  *@x: value to calculate absolute for
  *Return: returns x
  */
