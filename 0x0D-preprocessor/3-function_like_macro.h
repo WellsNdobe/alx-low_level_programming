@@ -11,7 +11,7 @@ int ABS(int x)
 {
 	if (x < 0)
 	{
-	return (-x)
+	return (-x);
 	}
 	else
 	{
@@ -19,4 +19,4 @@ int ABS(int x)
 	}
 	return (0);
 }
-#endif FUNCTION_LIKE_MACRO_H
+#endif
